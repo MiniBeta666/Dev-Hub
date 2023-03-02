@@ -45,10 +45,6 @@ local Tab = Window:CreateTab(" ", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Dev Tool Kit",
    Callback = function()
-Button:Set("Run Success")
-rsno()
-wait(2)
-Button:Set("Dev Tool Kit")
    -- The function that takes place when the button is pressed
 loadstring(game:HttpGet("https://pastebin.com/raw/3u49K2Kt", true))()
    end,
@@ -56,10 +52,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/3u49K2Kt", true))()
 local Button1 = Tab:CreateButton({
    Name = "Arceus X V3",
    Callback = function()
-Button1:Set("Run Success")
-rsno()
-wait(2)
-Button1:Set("Arceus X V3")
+
    -- The function that takes place when the button is pressed
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3", true))()
 
@@ -68,10 +61,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-wor
 local Button2 = Tab:CreateButton({
    Name = "Dev Hub TP",
    Callback = function()
-Button2:Set("Run Success")
-rsno()
-wait(2)
-Button2:Set("Dev Hub TP")
+
    -- The function that takes place when the button is pressed
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniBeta666/MixTen/main/ScriptTP.lua", true))()
    end,
