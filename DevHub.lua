@@ -41,29 +41,29 @@ Rayfield:Notify({
 },
 })
 end
-local Tab = Window:CreateTab(" ", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Dev Tool Kit",
    Callback = function()
    -- The function that takes place when the button is pressed
 loadstring(game:HttpGet("https://pastebin.com/raw/3u49K2Kt", true))()
+rsno()
    end,
 })
-local Button1 = Tab:CreateButton({
+local Button = Tab:CreateButton({
    Name = "Arceus X V3",
    Callback = function()
-
    -- The function that takes place when the button is pressed
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3", true))()
-
+rsno()
    end,
 })
-local Button2 = Tab:CreateButton({
+local Button = Tab:CreateButton({
    Name = "Dev Hub TP",
    Callback = function()
-
    -- The function that takes place when the button is pressed
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniBeta666/MixTen/main/ScriptTP.lua", true))()
+rsno()
    end,
 })
 
