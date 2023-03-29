@@ -2,7 +2,7 @@
 # Made By MiniBeta666,ScuritySkull
 ## Loadstring
 ```lua
-local Update =  loadstring(Game:HttpGet"https://raw.githubusercontent.com/ScuritySkull/UiLibList/main/TurboHub")()
+local Library =  loadstring(Game:HttpGet"https://raw.githubusercontent.com/ScuritySkull/UiLibList/main/TurboHub")()
 ```
 ## Create Tab
 ```lua
